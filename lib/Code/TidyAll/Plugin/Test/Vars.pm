@@ -1,10 +1,10 @@
 package Code::TidyAll::Plugin::Test::Vars;
 
-our $VERSION = '0.01';
-
 use strict;
 use warnings;
 use autodie;
+
+our $VERSION = '0.01';
 
 use Test::Vars;
 use Path::Class qw( dir );
