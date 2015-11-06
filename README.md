@@ -4,7 +4,7 @@ Code::TidyAll::Plugin::Test::Vars - Provides Test::Vars plugin for Code::TidyAll
 
 # VERSION
 
-version 0.01
+version 0.02
 
 # SYNOPSIS
 

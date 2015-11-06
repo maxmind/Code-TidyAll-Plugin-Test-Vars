@@ -6,7 +6,7 @@ use autodie;
 
 our $VERSION = '0.02';
 
-use Test::Vars;
+use Test::Vars 0.008;
 use Path::Class qw( dir );
 use PPI::Document;
 

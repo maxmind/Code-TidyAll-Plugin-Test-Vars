@@ -1,5 +1,8 @@
 {{$NEXT}}
 
+- Depend on latest Test::Vars.
+
+
 0.01     2015-11-04
 
 - Initial release.
