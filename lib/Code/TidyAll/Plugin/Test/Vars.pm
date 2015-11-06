@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use autodie;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Test::Vars 0.008;
 use Path::Class qw( dir );
