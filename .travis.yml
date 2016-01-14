@@ -1,3 +1,4 @@
+---
 sudo: false
 addons:
   apt:
@@ -29,7 +30,8 @@ before_install:
   - eval $(curl https://travis-perl.github.io/init) --auto
 notifications:
   email:
+    on_failure: always
+    on_success: change
     recipients:
       - dev-ci@maxmind.com
-    on_success: change
-    on_failure: always
+  slack: maxmind:i0FCGfzZnfRYaaUaPKAjLeJF
