@@ -34,4 +34,6 @@ notifications:
     on_success: change
     recipients:
       - dev-ci@maxmind.com
-  slack: maxmind:i0FCGfzZnfRYaaUaPKAjLeJF
+  slack:
+    rooms:
+      secure: "oNGxkGgpzh2Co5AJRzL/SR6+YF1FiKLJ+p74ucadCErdQGiCqzfYZu3RwLBdj+xErpofSfHm8GfSheztKJsSb84HiaqRs+xqBITE/VGCjY6zlslj7sa+acHYGZzTxZFI52UTRP6h+VMSF2oUUmbRwOk1Jku1WHv4mMQ//spW6GQLYgScVkLIeqMTopKOFejGtQSlJwN8fqB7E0Nk1lFebo3B9UZtdXuGamfWlDuq+6UdGF4WuXxicWZUhyYovDXP4eHoBZNB7mBgYmM7FvgyS+7VefH561TZq5Yx9zUd+UG22EJBKlRcTUog160UPO97+k46C97DeQVGbX76sh7s5OLCpZA3M0/l/JtKMGkeO5HXajN62pZsfxKuLJ7QWUSMRMrEFt6/HrIxFn8ZB8kHtfD8O96NxCMfJ28zzQMblpp4X100UyYNGza1ovg5cxwnbqCrHHu0R5LJ/3sMaevDtQR/eW24AOlPOGNgy4RSnOLnaG8QAI3zv85Dv7LVQspVK3hFlRW5KUH3aL7PgF7RgUE/weKiXEkH8UNuKbZLl0zEY3V5FinqjdWw8p+FZnJfWN8ajx6eyaDQa1sO+51k4yAhfgJZ+yIPpGY1NKD8Koi0L6beEtCpZNFtFltPq53fDHHBSPSEU+tT9XbwWp8aRShI934e/xpsiFB2Vr8Ms0E=\n"
