@@ -1,5 +1,8 @@
 {{$NEXT}}
 
+- Remove // so this module works on 5.8.
+
+
 0.02     2015-11-05
 
 - Depend on latest Test::Vars.

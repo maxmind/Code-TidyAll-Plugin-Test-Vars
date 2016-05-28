@@ -63,7 +63,7 @@ sub validate_source {
     return test_vars(
         $file,
         \&_result_handler,
-        %{ $self->_ignore_for_package->{$package} // {} },
+        %{ $self->_ignore_for_package->{$package} || {} },
     );
 }
 
