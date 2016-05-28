@@ -4,7 +4,7 @@ requires "PPI::Document" => "0";
 requires "Path::Class" => "0";
 requires "Test::Vars" => "0.008";
 requires "autodie" => "0";
-requires "perl" => "5.010";
+requires "perl" => "5.006";
 requires "strict" => "0";
 requires "warnings" => "0";
 
@@ -14,7 +14,7 @@ on 'test' => sub {
   requires "ExtUtils::MakeMaker" => "0";
   requires "File::Spec" => "0";
   requires "Test::More" => "0.96";
-  requires "perl" => "5.010";
+  requires "perl" => "5.006";
 };
 
 on 'test' => sub {
@@ -23,11 +23,10 @@ on 'test' => sub {
 
 on 'configure' => sub {
   requires "ExtUtils::MakeMaker" => "0";
-  requires "perl" => "5.010";
+  requires "perl" => "5.006";
 };
 
 on 'develop' => sub {
-  requires "Code::TidyAll" => "0.24";
   requires "File::Spec" => "0";
   requires "IO::Handle" => "0";
   requires "IPC::Open3" => "0";

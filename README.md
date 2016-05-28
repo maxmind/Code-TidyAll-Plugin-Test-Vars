@@ -4,7 +4,7 @@ Code::TidyAll::Plugin::Test::Vars - Provides Test::Vars plugin for Code::TidyAll
 
 # VERSION
 
-version 0.02
+version 0.03
 
 # SYNOPSIS
 
@@ -41,7 +41,7 @@ Please report all issues with this code using the GitHub issue tracker at
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 by MaxMind, Inc..
+This software is copyright (c) 2015 - 2016 by MaxMind, Inc..
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
