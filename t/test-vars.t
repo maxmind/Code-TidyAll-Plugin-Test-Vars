@@ -52,7 +52,7 @@ sub _test_file {
 
     my $ct = Code::TidyAll->new(
         root_dir => $temp_dir,
-        plugins => { 'Test::Vars' => { select => $module->basename }, }
+        plugins  => { 'Test::Vars' => { select => $module->basename }, }
     );
 
     my ( $output, $result ) = capture_merged { $ct->process_all() };
