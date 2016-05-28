@@ -1,5 +1,6 @@
 .\#*
 .build
+/.tidyall.d
 Build
 Code-TidyAll-Plugin-Test-Vars-*
 Debian_CPANTS.txt
