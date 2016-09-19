@@ -1,5 +1,8 @@
 {{$NEXT}}
 
+- Use Path::Tiny internally and expect Code::TidyAll to be using it too.
+
+
 0.03     2016-05-28
 
 - Remove // so this module works on 5.8.

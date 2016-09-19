@@ -6,8 +6,10 @@ use autodie;
 
 our $VERSION = '0.04';
 
+# To ensure that $self->tidyall->_tempdir is a Path::Tiny object.
+use Code::TidyAll 0.50 ();
 use Test::Vars 0.008;
-use Path::Class qw( dir );
+use Path::Tiny qw( path );
 use PPI::Document;
 
 use Moo;
@@ -53,7 +55,7 @@ sub validate_source {
     $path[-1] .= '.pm';
 
     ## no critic (Subroutines::ProtectPrivateSubs)
-    my $file = dir( $self->tidyall->_tempdir )->file( 'lib', @path );
+    my $file = $self->tidyall->_tempdir->child( 'lib', @path );
     ## use critic
     ## no critic (ValuesAndExpressions::ProhibitLeadingZeros)
     $file->parent->mkpath( 0, 0755 );
