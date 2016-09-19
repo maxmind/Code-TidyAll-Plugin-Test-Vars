@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use autodie;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 # To ensure that $self->tidyall->_tempdir is a Path::Tiny object.
 use Code::TidyAll 0.50 ();
