@@ -13,6 +13,7 @@ use Path::Tiny qw( path );
 use PPI::Document;
 
 use Moo;
+use namespace::autoclean;
 
 extends 'Code::TidyAll::Plugin';
 
@@ -78,11 +79,11 @@ sub _build_ignore_for_package {
     my %regexes;
 
     open my $fh, '<', $self->ignore_file;
-    while (<$fh>) {
-        next unless /\S/;
+    while ( my $line = <$fh> ) {
+        next unless $line =~ /\S/;
 
         chomp;
-        my ( $package, $ignore ) = split /\s*=\s*/;
+        my ( $package, $ignore ) = split /\s*=\s*/, $line;
         unless ( defined $package && defined $ignore ) {
             die 'Invalid line in ' . $self->ignore_file . ": $_\n";
         }
