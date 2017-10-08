@@ -4,7 +4,7 @@ Code::TidyAll::Plugin::Test::Vars - Provides Test::Vars plugin for Code::TidyAll
 
 # VERSION
 
-version 0.04
+version 0.05
 
 # SYNOPSIS
 
@@ -34,6 +34,8 @@ This module uses [Test::Vars](https://metacpan.org/pod/Test::Vars) to detect unu
 Please report all issues with this code using the GitHub issue tracker at
 [https://github.com/maxmind/Code-TidyAll-Plugin-Test-Vars/issues](https://github.com/maxmind/Code-TidyAll-Plugin-Test-Vars/issues).
 
+Bugs may be submitted through [https://github.com/maxmind/Code-TidyAll-Plugin-Test-Vars/issues](https://github.com/maxmind/Code-TidyAll-Plugin-Test-Vars/issues).
+
 # AUTHORS
 
 - Dave Rolsky <drolsky@maxmind.com>
@@ -41,7 +43,7 @@ Please report all issues with this code using the GitHub issue tracker at
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 - 2016 by MaxMind, Inc.
+This software is copyright (c) 2015 - 2017 by MaxMind, Inc.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
