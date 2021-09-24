@@ -15,7 +15,7 @@ In your `.tidyallrc` file:
 
 # DESCRIPTION
 
-This module uses [Test::Vars](https://metacpan.org/pod/Test::Vars) to detect unused variables in Perl modules.
+This module uses [Test::Vars](https://metacpan.org/pod/Test%3A%3AVars) to detect unused variables in Perl modules.
 
 # CONFIGURATION
 
@@ -43,7 +43,7 @@ Bugs may be submitted through [https://github.com/maxmind/Code-TidyAll-Plugin-Te
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 - 2017 by MaxMind, Inc.
+This software is copyright (c) 2015 - 2021 by MaxMind, Inc.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
